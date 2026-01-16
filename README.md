@@ -43,6 +43,20 @@ Among the evaluated models, **Support Vector Machine (SVM)** achieved the best p
 
 ---
 
+## Model Performance
+
+The accuracy achieved by each model on the test dataset is as follows:
+
+| Model                     | Accuracy |
+|---------------------------|----------|
+| KNN (From Scratch)        | 0.9640   |
+| Support Vector Machine    | 0.9852   |
+| Decision Tree Classifier  | 0.8804   |
+
+The Support Vector Machine (SVM) outperformed other models, achieving the highest accuracy due to its ability to learn optimal decision boundaries in high-dimensional feature space. The KNN model also performed well despite being implemented from scratch, while the Decision Tree showed comparatively lower generalization performance.
+
+---
+
 ## Key Observations
 - Misclassifications mainly occur between visually similar digits (e.g., 3 vs 5, 4 vs 2, 6 vs 8).
 - Classical ML models struggle with spatial awareness when trained on flattened pixel values.
